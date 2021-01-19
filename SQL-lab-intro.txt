@@ -1,0 +1,6 @@
+SELECT title FROM film;
+SELECT DISTINCT name FROM language AS language;
+SELECT COUNT(*) FROM staff AS number_of_staff;
+SELECT COUNT(*) FROM store AS number_of_stores;
+SELECT first_name FROM staff AS first_names_only;
+SELECT DATE(rental_date FROM rental) #can't make this work
